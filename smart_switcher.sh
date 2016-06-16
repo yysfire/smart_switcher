@@ -131,6 +131,6 @@ function main ()
 main
 unset -f do_clear
 unset -f set_proxy
-unset -f unset_proxy
+#unset -f unset_proxy
 unset -f print_proxy_server
 unset -f main
