@@ -62,8 +62,8 @@ function main ()
 	do_clear
 
 	# set LAN env
-	local PROXY_SERVER_IP="172.17.18.84"	# your proxy ip
-	local PROXY_SERVER_PORT="8080"		# your prxoy port
+	local PROXY_SERVER_IP="127.0.0.1"	# your proxy ip
+	local PROXY_SERVER_PORT="8087"		# your prxoy port
 	local PROXY_GATE=${PROXY_SERVER_IP}:${PROXY_SERVER_PORT}
 
 	# set path
@@ -134,4 +134,3 @@ unset -f set_proxy
 unset -f unset_proxy
 unset -f print_proxy_server
 unset -f main
-
